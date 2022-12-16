@@ -23,6 +23,19 @@ main {
   justify-content: center;
   align-items: center;
 }
+.reset-btn {
+  color: #bdb525;
+  border-color: #bdb525;
+  background-color: #bdb525;
+  border-radius: 50px;
+  background-image: url(../img/reset.svg);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  fill: #bdb525;
+  height: 50px;
+  cursor: pointer;
+}
 #button {
   --color: #bdb525;
   --border-color: #bdb525;

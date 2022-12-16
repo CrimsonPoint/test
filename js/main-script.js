@@ -1,12 +1,24 @@
 let clicks = 0;
 
-const TIMEOUT = 10000;
+const TIMEOUT = 5000;
 
 const display = document.querySelector('#display');
 const button = document.querySelector('#button');
+const buttonReset = document.querySelector('#reset');
 const counter = document.querySelector('#counter');
 
 button.onclick = start;
+buttonReset.onclick = reset;
+
+
+function reset(){
+    display.textContent = ""; 
+    counter.textContent = "";
+    clicks = 0;
+    
+    button.onclick = start;
+    
+}
 
 function start(){
     const startTime = Date.now();

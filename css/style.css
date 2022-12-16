@@ -24,9 +24,9 @@ main {
   align-items: center;
 }
 #button {
-  --color: firebrick;
-  --border-color: firebrick;
-  --shadow-color: #701414;
+  --color: #bdb525;
+  --border-color: #bdb525;
+  --shadow-color: #89841c;
   position: relative;
   font-size: 0.75rem;
   width: 200px;
